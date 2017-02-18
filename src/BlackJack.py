@@ -135,11 +135,6 @@ def deal_cards():
     # Set up all global variables
     global result, playing, deck, player_hand, dealer_hand, chip_pool, bet
 
-    # Create a deck
-    deck = Deck()
-
-    # Shuffle it
-    deck.shuffle()
 
     # Set up bet
     make_bet()
